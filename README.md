@@ -12,4 +12,4 @@ docker build -t passphraser .
 
 ## Run it
 docker run passphraser
-printf "\nalias='docker run passphraser'" >> ~/.bashrc
+printf "\nalias pw='docker run passphraser'" >> ~/.bashrc
